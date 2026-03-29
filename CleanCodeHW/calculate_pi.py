@@ -9,7 +9,7 @@ CIRCLED = 0
 for _ in range(TOTAL):
     x = random.uniform(-RADIUS, RADIUS)
     y = random.uniform(-RADIUS, RADIUS)
-    if x * x + y * y <= RADIUS:
+    if x * x + y * y <= RADIUS * RADIUS:
         CIRCLED += 1
 
 # Estimate pi based on the number of points inside the circle
