@@ -13,5 +13,5 @@ for _ in range(TOTAL):
         CIRCLED += 1
 
 # Estimate pi based on the number of points inside the circle
-EST_PI = (CIRCLED / TOTAL) * SQ_AREA
-print(f"Estimated value of pi is: {EST_PI}")
+pi = (CIRCLED / TOTAL) * SQ_AREA
+print(f"Estimated value of pi is: {pi}")
